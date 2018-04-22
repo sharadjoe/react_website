@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
+//TODO: Add a custom css script for thr navbar
 
 export default class NavBar extends Component {
     render() {

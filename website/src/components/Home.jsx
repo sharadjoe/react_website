@@ -10,10 +10,17 @@ export default class Home extends Component {
         <Jumbotron>
           <h2>Welcome to the Home Page</h2>
           <p>My first react-bootstrap website. Hoping it will end soon happily</p>
-        </Jumbotron>
-        <Link to="/about">
+          <Link to="/about">
           <Button bsStyle="primary">First Button</Button>
         </Link>
+        </Jumbotron>
+        <Row className="show-grid text-center">
+          <Col cs={12} sm={4} className="person-wrapper">
+            
+          </Col>
+        </Row>
+        
+        
       </Grid>
     )
   }
